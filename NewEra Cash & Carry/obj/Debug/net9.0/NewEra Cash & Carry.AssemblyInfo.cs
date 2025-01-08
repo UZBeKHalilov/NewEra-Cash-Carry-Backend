@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NewEra Cash & Carry")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+706b29ac22fccb6f04d62899db28b1a1b508e124")]
 [assembly: System.Reflection.AssemblyProductAttribute("NewEra Cash & Carry")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NewEra Cash & Carry")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

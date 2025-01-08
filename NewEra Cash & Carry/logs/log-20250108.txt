@@ -1,0 +1,72 @@
+2025-01-08 18:22:44.204 +05:00 [INF] User profile is available. Using 'C:\Users\Abdulloh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-08 18:22:44.746 +05:00 [INF] Now listening on: https://localhost:7142
+2025-01-08 18:22:44.750 +05:00 [INF] Now listening on: http://localhost:5204
+2025-01-08 18:22:44.852 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-08 18:22:44.855 +05:00 [INF] Hosting environment: Development
+2025-01-08 18:22:44.858 +05:00 [INF] Content root path: C:\Users\Abdulloh\Desktop\GitHub\NewEra-Cash-Carry-Backend\NewEra Cash & Carry
+2025-01-08 18:22:46.648 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger - null null
+2025-01-08 18:22:46.875 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger - 301 0 null 234.4443ms
+2025-01-08 18:22:46.888 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/index.html - null null
+2025-01-08 18:22:46.996 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/index.html - 200 null text/html;charset=utf-8 108.2954ms
+2025-01-08 18:22:47.038 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/swagger-ui.css - null null
+2025-01-08 18:22:47.038 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/index.css - null null
+2025-01-08 18:22:47.066 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-08 18:22:47.041 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/swagger-ui-standalone-preset.js - null null
+2025-01-08 18:22:47.093 +05:00 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-01-08 18:22:47.039 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/swagger-ui-bundle.js - null null
+2025-01-08 18:22:47.056 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/index.js - null null
+2025-01-08 18:22:47.078 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/_vs/browserLink - null null
+2025-01-08 18:22:47.113 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 54.038ms
+2025-01-08 18:22:47.113 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/index.css - 200 202 text/css 74.3189ms
+2025-01-08 18:22:47.115 +05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-01-08 18:22:47.126 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/index.js - 200 null application/javascript;charset=utf-8 70.7742ms
+2025-01-08 18:22:47.115 +05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-01-08 18:22:47.161 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/swagger-ui-standalone-preset.js - 200 230007 text/javascript 119.9683ms
+2025-01-08 18:22:47.175 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/swagger-ui.css - 200 152035 text/css 136.5862ms
+2025-01-08 18:22:47.419 +05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-01-08 18:22:47.425 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/swagger-ui-bundle.js - 200 1426050 text/javascript 386.5435ms
+2025-01-08 18:22:47.429 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/_vs/browserLink - 200 null text/javascript; charset=UTF-8 352.6122ms
+2025-01-08 18:22:47.708 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/v1/swagger.json - null null
+2025-01-08 18:22:47.750 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/favicon-32x32.png - null null
+2025-01-08 18:22:47.752 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 44.2705ms
+2025-01-08 18:22:47.759 +05:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-01-08 18:22:47.774 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/favicon-32x32.png - 200 628 image/png 24.838ms
+2025-01-08 18:23:17.372 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7142/api/User/login - application/json 71
+2025-01-08 18:23:17.516 +05:00 [INF] Executing endpoint 'ECommerceAPI.Controllers.UserController.Login (ECommerceAPI)'
+2025-01-08 18:23:17.546 +05:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(ECommerceAPI.Models.User) on controller ECommerceAPI.Controllers.UserController (ECommerceAPI).
+2025-01-08 18:23:18.651 +05:00 [WRN] No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-08 18:23:18.655 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-08 18:23:18.658 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-08 18:23:20.837 +05:00 [INF] Executed DbCommand (176ms) [Parameters=[@__user_Username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[PasswordHash], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__user_Username_0
+2025-01-08 18:23:21.517 +05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-08 18:23:21.532 +05:00 [INF] Executed action ECommerceAPI.Controllers.UserController.Login (ECommerceAPI) in 3976.4337ms
+2025-01-08 18:23:21.536 +05:00 [INF] Executed endpoint 'ECommerceAPI.Controllers.UserController.Login (ECommerceAPI)'
+2025-01-08 18:23:21.542 +05:00 [INF] HTTP POST /api/User/login responded 200 in 4141.3672 ms
+2025-01-08 18:23:21.554 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7142/api/User/login - 200 null application/json; charset=utf-8 4182.0531ms
+2025-01-08 18:23:23.459 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7142/api/User/login - application/json 71
+2025-01-08 18:23:23.480 +05:00 [INF] Executing endpoint 'ECommerceAPI.Controllers.UserController.Login (ECommerceAPI)'
+2025-01-08 18:23:23.483 +05:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(ECommerceAPI.Models.User) on controller ECommerceAPI.Controllers.UserController (ECommerceAPI).
+2025-01-08 18:23:23.606 +05:00 [INF] Executed DbCommand (97ms) [Parameters=[@__user_Username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[PasswordHash], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__user_Username_0
+2025-01-08 18:23:23.988 +05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-08 18:23:23.994 +05:00 [INF] Executed action ECommerceAPI.Controllers.UserController.Login (ECommerceAPI) in 505.0584ms
+2025-01-08 18:23:23.998 +05:00 [INF] Executed endpoint 'ECommerceAPI.Controllers.UserController.Login (ECommerceAPI)'
+2025-01-08 18:23:24.002 +05:00 [INF] HTTP POST /api/User/login responded 200 in 523.4382 ms
+2025-01-08 18:23:24.008 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7142/api/User/login - 200 null application/json; charset=utf-8 548.3184ms
+2025-01-08 18:24:26.255 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/api/v1/Products - null null
+2025-01-08 18:24:26.328 +05:00 [INF] Executing endpoint 'ECommerceAPI.Controllers.ProductsController.GetProducts (ECommerceAPI)'
+2025-01-08 18:24:26.335 +05:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ECommerceAPI.DTOs.ProductDTO]]] GetProducts() on controller ECommerceAPI.Controllers.ProductsController (ECommerceAPI).
+2025-01-08 18:24:26.834 +05:00 [INF] Executed DbCommand (105ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[Stock], [c].[Id], [c].[Description], [c].[Name]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+2025-01-08 18:24:26.923 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ECommerceAPI.DTOs.ProductDTO, ECommerceAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-01-08 18:24:26.954 +05:00 [INF] Executed action ECommerceAPI.Controllers.ProductsController.GetProducts (ECommerceAPI) in 614.2238ms
+2025-01-08 18:24:26.958 +05:00 [INF] Executed endpoint 'ECommerceAPI.Controllers.ProductsController.GetProducts (ECommerceAPI)'
+2025-01-08 18:24:26.960 +05:00 [INF] HTTP GET /api/v1/Products responded 200 in 688.4908 ms
+2025-01-08 18:24:26.965 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/api/v1/Products - 200 null application/json; charset=utf-8 709.8111ms

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\ECommerceAPI\obj\Release\net9.0\win-x86\PubTmp\Out\" />
+  <dbfullsql path="C:\Users\Abdulloh\Desktop\GitHub\PDP-University\Programming\ECommerceAPI\obj\Release\net9.0\win-x86\PubTmp\EFSQLScripts\ECommerceAPI.Data.ECommerceDbContext.sql" />
+</sitemanifest>

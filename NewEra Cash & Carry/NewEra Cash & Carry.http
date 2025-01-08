@@ -1,6 +1,0 @@
-@NewEra_Cash___Carry_HostAddress = http://localhost:5036
-
-GET {{NewEra_Cash___Carry_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
