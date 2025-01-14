@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NewEraAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+40b09129e1a211eb8c96d79fed7583bdac172436")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8913e7553a12c20fa792308fc2e95543cd628c5e")]
 [assembly: System.Reflection.AssemblyProductAttribute("NewEraAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NewEraAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using NewEraAPI.Data;
 
@@ -10,9 +11,11 @@ using NewEraAPI.Data;
 namespace NewEraAPI.Migrations
 {
     [DbContext(typeof(NewEraDBContext))]
-    partial class NewEraDBContextModelSnapshot : ModelSnapshot
+    [Migration("20250114053751_User")]
+    partial class User
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

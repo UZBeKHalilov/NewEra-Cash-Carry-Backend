@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -10,8 +11,10 @@ using NewEraAPI.Models;
 
 namespace NewEraAPI.Controllers
 {
+    [ApiVersion("1.0")]
     [Route("api/[controller]")]
     [ApiController]
+
     public class ProductsController : ControllerBase
 
     {
@@ -57,6 +60,7 @@ namespace NewEraAPI.Controllers
         }
 
         // POST: api/Products
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         public async Task<ActionResult<Product>> PostProduct(Product product)
 
@@ -71,7 +75,7 @@ namespace NewEraAPI.Controllers
 
         // PUT: api/Products/5
 
-
+        [Authorize(Roles = "Admin")]
         [HttpPut("{id}")]
         public async Task<IActionResult> PutProduct(int id, Product product)
 
@@ -121,6 +125,7 @@ namespace NewEraAPI.Controllers
 
         }
 
+        [Authorize(Roles = "Admin")]
         // DELETE: api/Products/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteProduct(int id)
