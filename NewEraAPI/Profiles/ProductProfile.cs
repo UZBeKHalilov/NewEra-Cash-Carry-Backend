@@ -18,8 +18,7 @@ namespace NewEraAPI.Profiles
             CreateMap<Product, ProductGetDTO>()
                 .ForMember(dest => dest.CategoryID, opt => opt.MapFrom(src => src.CategoryID));
 
-            CreateMap<Category, CategoryCreateDTO>(); // THE FIXING BIG BUG PLEASE DONT TOUCH
-
+            CreateMap<Category, CategoryCreateDTO>(); // For mapping Category in Product
         }
     }
 

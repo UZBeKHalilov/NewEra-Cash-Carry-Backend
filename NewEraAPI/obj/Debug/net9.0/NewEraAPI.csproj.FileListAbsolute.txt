@@ -268,6 +268,6 @@ C:\Users\Abdulloh\Desktop\GitHub\NewEra-Cash-Carry-Backend\NewEraAPI\bin\Debug\n
 C:\Users\Abdulloh\Desktop\GitHub\NewEra-Cash-Carry-Backend\NewEraAPI\bin\Debug\net9.0\Microsoft.AspNetCore.Mvc.Versioning.dll
 C:\Users\Abdulloh\Desktop\GitHub\NewEra-Cash-Carry-Backend\NewEraAPI\bin\Debug\net9.0\AutoMapper.dll
 C:\Users\Abdulloh\Desktop\GitHub\NewEra-Cash-Carry-Backend\NewEraAPI\bin\Debug\net9.0\BCrypt.Net-Next.dll
-C:\Users\Abdulloh\Desktop\GitHub\NewEra-Cash-Carry-Backend\NewEraAPI\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\Abdulloh\Desktop\GitHub\NewEra-Cash-Carry-Backend\NewEraAPI\bin\Debug\net9.0\Castle.Core.dll
 C:\Users\Abdulloh\Desktop\GitHub\NewEra-Cash-Carry-Backend\NewEraAPI\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\Abdulloh\Desktop\GitHub\NewEra-Cash-Carry-Backend\NewEraAPI\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

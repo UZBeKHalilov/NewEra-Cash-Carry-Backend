@@ -53,6 +53,7 @@ namespace NewEraAPI.Controllers
 
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         public async Task<ActionResult<ProductGetDTO>> PostProduct([FromBody] ProductCreateDTO productDto)
         {
@@ -85,6 +86,7 @@ namespace NewEraAPI.Controllers
                                    _mapper.Map<ProductGetDTO>(savedProduct));
         }
         // PUT: api/Products/5
+        [Authorize(Roles = "Admin")]
         [HttpPut("{id}")]
         public async Task<IActionResult> PutProduct(int id, Product product)
         {
@@ -115,6 +117,7 @@ namespace NewEraAPI.Controllers
         }
 
         // DELETE: api/Products/5
+        [Authorize(Roles = "Admin")]
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteProduct(int id)
         {

@@ -9,6 +9,7 @@ using System.Collections.Immutable;
 
 namespace NewEraAPI.Controllers
 {
+    [Authorize]
     [ApiVersion("1.0")]
     [Route("api/[controller]")]
     [ApiController]
