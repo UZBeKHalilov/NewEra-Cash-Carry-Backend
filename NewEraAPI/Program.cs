@@ -4,7 +4,7 @@ using NewEraAPI.Helpers;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-
+using AutoMapper;
 using Microsoft.AspNetCore.Mvc.Versioning;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.OpenApi.Models;
@@ -12,9 +12,15 @@ using Microsoft.OpenApi.Models;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddDbContext<NewEraDBContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+// Database
+
+builder.Services.AddDbContext<NewEraDBContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
+           .UseLazyLoadingProxies());
+
+
+// Controllers
 builder.Services.AddControllers();
 
 
@@ -41,6 +47,8 @@ builder.Services.AddAuthentication(options =>
 
 });
 
+// Auto Mapper
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 // API Versionning
 builder.Services.AddApiVersioning(options =>
@@ -50,7 +58,6 @@ builder.Services.AddApiVersioning(options =>
     options.ReportApiVersions = true; // Include version information in the response headers
     options.ApiVersionReader = new UrlSegmentApiVersionReader(); // Read version from URL segment
 });
-
 
 // Swagger configuration
 builder.Services.AddSwaggerGen(
