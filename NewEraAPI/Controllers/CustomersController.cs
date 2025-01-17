@@ -5,12 +5,13 @@ using AutoMapper;
 using NewEraAPI.DTOs.CustomerDTO;
 using NewEraAPI.Models;
 using NewEraAPI.Data;
+using Serilog;
 
 namespace NewEraAPI.Controllers
 
 {
-
-    [Route("api/[controller]")]
+    [ApiVersion("1.0")]
+    [Route("api/v{version:apiVersion}/[controller]")]
     [ApiController]
     [Authorize]
     public class CustomersController : ControllerBase
@@ -55,11 +56,20 @@ namespace NewEraAPI.Controllers
             }
 
             var customer = _mapper.Map<Customer>(customerDto);
-            _context.Customers.Add(customer);
-            await _context.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(GetCustomer), new { id = customer.Id },
-            _mapper.Map<CustomerGetDTO>(customer));
+            try
+            {
+
+                _context.Customers.Add(customer);
+                await _context.SaveChangesAsync();
+
+                return CreatedAtAction(nameof(GetCustomer), new { id = customer.Id }, _mapper.Map<CustomerGetDTO>(customer));
+            }
+            catch (Exception ex) 
+            {
+                Log.Error(ex, $"Failed to create customer {customer.Id}");
+                throw; // Let the error middleware handle the exception
+            }
         }
 
         // PUT: api/Customers/5

@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore;
 using NewEraAPI.Data;
 using NewEraAPI.DTOs.OrderDTO;
+using NewEraAPI.Migrations;
 using NewEraAPI.Models;
 using System;
 using System.Collections.Generic;
@@ -106,13 +107,21 @@ namespace NewEraAPI.Controllers
             await _context.SaveChangesAsync();
 
             // Optionally, fetch the order with related data for return
+            
             var result = await _context.Orders
                 .Include(o => o.Customer)
                 .Include(o => o.OrderItems)
                 .ThenInclude(oi => oi.Product)
                 .FirstOrDefaultAsync(o => o.Id == order.Id);
 
-            return CreatedAtAction(nameof(GetOrder), new { id = order.Id }, result);
+            if (result == null)
+            {
+                return NotFound();
+            }
+
+            var mappedResult = _mapper.Map<OrderGetDTO>(result);
+
+            return CreatedAtAction(nameof(GetOrder), new { id = order.Id }, _mapper.Map<OrderGetDTO>(mappedResult));
         }
 
         // PUT and DELETE methods are left out for brevity. Implement similar to the GET and POST methods above.

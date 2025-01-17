@@ -6,12 +6,14 @@ using NewEraAPI.DTOs.CategoryDTO;
 using NewEraAPI.Models;
 using AutoMapper;
 using System.Collections.Immutable;
+using Serilog;
+using NewEraAPI.DTOs.CustomerDTO;
 
 namespace NewEraAPI.Controllers
 {
     [Authorize]
     [ApiVersion("1.0")]
-    [Route("api/[controller]")]
+    [Route("api/v{version:apiVersion}/[controller]")]
     [ApiController]
     public class CategoriesController : ControllerBase
     {
@@ -51,18 +53,29 @@ namespace NewEraAPI.Controllers
         {
             if (!ModelState.IsValid)
             {
+                Log.Error("Model state is not valid");
                 return BadRequest(ModelState);
             }
 
             var category = _mapper.Map<Category>(categoryDto);
-            _context.Categories.Add(category);
+           
 
-            await _context.SaveChangesAsync();
+            try
+            {
 
-            return CreatedAtAction(nameof(GetCategory), new { id = category.ID }, _mapper.Map<CategoryGetDTO>(category));
+                _context.Categories.Add(category);
+
+                await _context.SaveChangesAsync();
+                Log.Information($"Added Category {category.ID}");
+
+                return CreatedAtAction(nameof(GetCategory), new { id = category.ID }, _mapper.Map<CategoryGetDTO>(category));
+            }
+            catch (Exception ex)
+            {
+                Log.Error(ex, $"Failed to create Category {category.ID}");
+                throw; // Let the error middleware handle the exception
+            }
         }
-
-
 
         // PUT : api/Categories/5
 
@@ -96,6 +109,7 @@ namespace NewEraAPI.Controllers
 
             return NoContent();
         }
+       
         // DELETE: api/Categories/5
         [Authorize(Roles = "Admin")]
         [HttpDelete("{id}")]

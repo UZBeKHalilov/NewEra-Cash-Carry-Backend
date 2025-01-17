@@ -3,6 +3,8 @@ using NewEraAPI.DTOs.Product_DTO;
 using NewEraAPI.DTOs.CategoryDTO;
 using NewEraAPI.Models;
 
+using Serilog;
+
 namespace NewEraAPI.Profiles
 {
     public class ProductProfile : Profile

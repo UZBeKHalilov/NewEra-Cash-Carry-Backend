@@ -10,7 +10,6 @@ namespace NewEraAPI.DTOs.OrderDTO
         public CustomerGetDTO Customer { get; set; }
         public DateTime OrderDate { get; set; }
         public decimal TotalAmount { get; set; }
-        public string PaymentStatus { get; set; }
         public List<OrderItemGetDTO> OrderItems { get; set; }
     }
 }

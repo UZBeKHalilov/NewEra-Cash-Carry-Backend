@@ -1,5 +1,4 @@
 ﻿using NewEraAPI.Models;
-using NewEraAPI.DTOs.Product_DTO;
 
 namespace NewEraAPI.DTOs.CategoryDTO
 {

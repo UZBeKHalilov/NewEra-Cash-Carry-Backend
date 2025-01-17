@@ -8,13 +8,22 @@ using AutoMapper;
 using Microsoft.AspNetCore.Mvc.Versioning;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.OpenApi.Models;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-// Database
+// Serilog
+Log.Logger = new LoggerConfiguration()
+    .WriteTo.Console()
+    .WriteTo.File("logs/log-.txt", rollingInterval: RollingInterval.Day)
+    .CreateLogger();
 
+builder.Host.UseSerilog();
+
+
+// Database
 builder.Services.AddDbContext<NewEraDBContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
            .UseLazyLoadingProxies());
@@ -69,7 +78,7 @@ builder.Services.AddSwaggerGen(
             new Microsoft.OpenApi.Models.OpenApiInfo
             {
                 Version = "1.0",
-                Title = "E-Commerce API",
+                Title = "NewEra API",
                 Description = "API for managing an e-commerce platform (v1.0)"
             }
         );
@@ -78,7 +87,7 @@ builder.Services.AddSwaggerGen(
             new Microsoft.OpenApi.Models.OpenApiInfo
             {
                 Version = "2.0",
-                Title = "E-Commerce API",
+                Title = "NewEra API",
                 Description = "API for managing an e-commerce platform (v2.0)"
             }
         );
@@ -116,6 +125,9 @@ builder.Services.AddSwaggerGen(
     }
 );
 
+
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -124,13 +136,16 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI(options =>
     {
-        //options.SwaggerEndpoint("/swagger/v1/swagger.json", "E-Commerce API v1.0");
-        //options.SwaggerEndpoint("/swagger/v2/swagger.json", "E-Commerce API v2.0");
+        options.SwaggerEndpoint("/swagger/v1/swagger.json", "E-Commerce API v1.0");
+        options.SwaggerEndpoint("/swagger/v2/swagger.json", "E-Commerce API v2.0");
     });
 }
-
+app.UseMiddleware<NewEraAPI.Middlewares.ErrorHandlerMiddleware>();
+app.UseSerilogRequestLogging();
 
 app.UseHttpsRedirection();
+app.UseAuthentication();
 app.UseAuthorization();
+
 app.MapControllers();
 app.Run();

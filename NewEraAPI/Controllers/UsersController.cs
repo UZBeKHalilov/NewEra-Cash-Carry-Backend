@@ -11,10 +11,12 @@ using System.Text;
 using BCrypt;
 using NewEraAPI.Models;
 using NewEraAPI.Helpers;
+using Serilog;
 
 namespace NewEraAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [ApiVersion("1.0")]
+    [Route("api/v{version:apiVersion}/[controller]")]
     [ApiController]
     public class UserController : ControllerBase
     {
@@ -32,6 +34,7 @@ namespace NewEraAPI.Controllers
         [HttpPost("register")]
         public async Task<IActionResult> Register(User user)
         {
+
             if (await _context.Users.AnyAsync(u => u.Username == user.Username))
             {
                 return BadRequest("Username already exists.");
@@ -41,7 +44,18 @@ namespace NewEraAPI.Controllers
             user.Role = string.IsNullOrEmpty(user.Role) ? "Customer" : user.Role;
 
             _context.Users.Add(user);
-            await _context.SaveChangesAsync();
+
+            try
+            {
+                await _context.SaveChangesAsync();
+            
+                Log.Information($"User {user.Username} created with ID {user.Id}");
+            }
+            catch (DbUpdateException ex)
+            {
+                return StatusCode(500, $"An error occurred while saving the product. {ex}");
+            }
+
 
             return Ok("User registered successfully.");
         }
@@ -60,6 +74,7 @@ namespace NewEraAPI.Controllers
             }
 
             var token = GenerateJwtToken(dbUser);
+            Log.Information($"User {user.Username} succesfully loggined Token - {token}");
             return Ok(new { Token = token });
         }
 
