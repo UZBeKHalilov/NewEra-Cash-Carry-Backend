@@ -43,7 +43,16 @@ namespace NewEraAPI.Controllers
                 return NotFound();
             }
 
-            return _mapper.Map<CustomerGetDTO>(customer);
+            CustomerGetDTO customerGetDTO = new CustomerGetDTO(
+                    customer.Id,
+                    customer.FirstName,
+                    customer.LastName,
+                    customer.Email,
+                    customer.PhoneNumber,
+                    customer.Address
+                );
+
+            return customerGetDTO;
         }
 
         // POST: api/Customers

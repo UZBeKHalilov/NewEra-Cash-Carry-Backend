@@ -270,7 +270,6 @@ C:\Users\Abdulloh\Desktop\GitHub\NewEra-Cash-Carry-Backend\NewEraAPI\bin\Debug\n
 C:\Users\Abdulloh\Desktop\GitHub\NewEra-Cash-Carry-Backend\NewEraAPI\bin\Debug\net9.0\BCrypt.Net-Next.dll
 C:\Users\Abdulloh\Desktop\GitHub\NewEra-Cash-Carry-Backend\NewEraAPI\bin\Debug\net9.0\Castle.Core.dll
 C:\Users\Abdulloh\Desktop\GitHub\NewEra-Cash-Carry-Backend\NewEraAPI\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Proxies.dll
-C:\Users\Abdulloh\Desktop\GitHub\NewEra-Cash-Carry-Backend\NewEraAPI\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\Abdulloh\Desktop\GitHub\NewEra-Cash-Carry-Backend\NewEraAPI\bin\Debug\net9.0\Serilog.dll
 C:\Users\Abdulloh\Desktop\GitHub\NewEra-Cash-Carry-Backend\NewEraAPI\bin\Debug\net9.0\Serilog.AspNetCore.dll
 C:\Users\Abdulloh\Desktop\GitHub\NewEra-Cash-Carry-Backend\NewEraAPI\bin\Debug\net9.0\Serilog.Extensions.Hosting.dll
@@ -280,3 +279,4 @@ C:\Users\Abdulloh\Desktop\GitHub\NewEra-Cash-Carry-Backend\NewEraAPI\bin\Debug\n
 C:\Users\Abdulloh\Desktop\GitHub\NewEra-Cash-Carry-Backend\NewEraAPI\bin\Debug\net9.0\Serilog.Sinks.Console.dll
 C:\Users\Abdulloh\Desktop\GitHub\NewEra-Cash-Carry-Backend\NewEraAPI\bin\Debug\net9.0\Serilog.Sinks.Debug.dll
 C:\Users\Abdulloh\Desktop\GitHub\NewEra-Cash-Carry-Backend\NewEraAPI\bin\Debug\net9.0\Serilog.Sinks.File.dll
+C:\Users\Abdulloh\Desktop\GitHub\NewEra-Cash-Carry-Backend\NewEraAPI\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

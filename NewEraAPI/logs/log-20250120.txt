@@ -1,0 +1,284 @@
+2025-01-20 11:32:38.764 +05:00 [INF] User profile is available. Using 'C:\Users\Abdulloh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-20 11:32:39.276 +05:00 [INF] Now listening on: https://localhost:7058
+2025-01-20 11:32:39.568 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-20 11:32:39.570 +05:00 [INF] Hosting environment: Development
+2025-01-20 11:32:39.573 +05:00 [INF] Content root path: C:\Users\Abdulloh\Desktop\GitHub\NewEra-Cash-Carry-Backend\NewEraAPI
+2025-01-20 11:32:47.449 +05:00 [INF] Application is shutting down...
+2025-01-20 11:32:57.246 +05:00 [INF] User profile is available. Using 'C:\Users\Abdulloh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-20 11:32:57.764 +05:00 [INF] Now listening on: https://localhost:7058
+2025-01-20 11:32:57.857 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-20 11:32:57.860 +05:00 [INF] Hosting environment: Development
+2025-01-20 11:32:57.863 +05:00 [INF] Content root path: C:\Users\Abdulloh\Desktop\GitHub\NewEra-Cash-Carry-Backend\NewEraAPI
+2025-01-20 11:32:58.193 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/ - null null
+2025-01-20 11:32:58.552 +05:00 [INF] HTTP GET / responded 404 in 103.8898 ms
+2025-01-20 11:32:58.566 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/ - 404 0 null 382.3672ms
+2025-01-20 11:32:58.581 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7058/, Response status code: 404
+2025-01-20 11:33:01.289 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/swagger/ - null null
+2025-01-20 11:33:01.303 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/swagger/ - 301 0 null 14.1501ms
+2025-01-20 11:33:01.314 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/swagger/index.html - null null
+2025-01-20 11:33:01.396 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/swagger/index.html - 200 null text/html;charset=utf-8 81.7293ms
+2025-01-20 11:33:01.449 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/swagger/swagger-ui.css - null null
+2025-01-20 11:33:01.465 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/swagger/index.css - null null
+2025-01-20 11:33:01.466 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/swagger/swagger-ui-bundle.js - null null
+2025-01-20 11:33:01.468 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/swagger/swagger-ui-standalone-preset.js - null null
+2025-01-20 11:33:01.533 +05:00 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-01-20 11:33:01.529 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/swagger/index.js - null null
+2025-01-20 11:33:01.529 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-20 11:33:01.533 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/_vs/browserLink - null null
+2025-01-20 11:33:01.545 +05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-01-20 11:33:01.551 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/swagger/index.css - 200 202 text/css 85.5162ms
+2025-01-20 11:33:01.588 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/swagger/swagger-ui.css - 200 152035 text/css 138.555ms
+2025-01-20 11:33:01.586 +05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-01-20 11:33:01.584 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 57.2289ms
+2025-01-20 11:33:01.559 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/swagger/index.js - 200 null application/javascript;charset=utf-8 32.4507ms
+2025-01-20 11:33:01.551 +05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-01-20 11:33:01.611 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/swagger/swagger-ui-bundle.js - 200 1426050 text/javascript 144.8274ms
+2025-01-20 11:33:01.632 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/swagger/swagger-ui-standalone-preset.js - 200 230007 text/javascript 163.564ms
+2025-01-20 11:33:01.651 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/_vs/browserLink - 200 null text/javascript; charset=UTF-8 119.7081ms
+2025-01-20 11:33:01.928 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/swagger/v1/swagger.json - null null
+2025-01-20 11:33:01.961 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 33.2789ms
+2025-01-20 11:52:43.450 +05:00 [INF] User profile is available. Using 'C:\Users\Abdulloh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-20 11:52:43.839 +05:00 [INF] Now listening on: https://localhost:7058
+2025-01-20 11:52:44.127 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-20 11:52:44.129 +05:00 [INF] Hosting environment: Development
+2025-01-20 11:52:44.131 +05:00 [INF] Content root path: C:\Users\Abdulloh\Desktop\GitHub\NewEra-Cash-Carry-Backend\NewEraAPI
+2025-01-20 11:53:11.563 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/swagger/index.html - null null
+2025-01-20 11:53:11.820 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/swagger/index.html - 200 null text/html;charset=utf-8 267.2967ms
+2025-01-20 11:53:11.869 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/swagger/index.js - null null
+2025-01-20 11:53:11.869 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-20 11:53:11.891 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/swagger/index.js - 200 null application/javascript;charset=utf-8 24.829ms
+2025-01-20 11:53:11.888 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/_vs/browserLink - null null
+2025-01-20 11:53:11.923 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 57.2862ms
+2025-01-20 11:53:11.965 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/_vs/browserLink - 200 null text/javascript; charset=UTF-8 76.5054ms
+2025-01-20 11:53:12.168 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/swagger/v1/swagger.json - null null
+2025-01-20 11:53:12.182 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/swagger/favicon-32x32.png - null null
+2025-01-20 11:53:12.209 +05:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-01-20 11:53:12.213 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/swagger/favicon-32x32.png - 200 628 image/png 30.6293ms
+2025-01-20 11:53:12.223 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 54.5778ms
+2025-01-20 11:53:17.500 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/api/v1/Customers - null null
+2025-01-20 11:53:17.594 +05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-01-20 11:53:17.602 +05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-01-20 11:53:17.608 +05:00 [INF] HTTP GET /api/v1/Customers responded 401 in 87.2388 ms
+2025-01-20 11:53:17.615 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/api/v1/Customers - 401 0 null 114.3126ms
+2025-01-20 11:53:24.298 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/api/v1/Customers - null null
+2025-01-20 11:53:24.397 +05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '18.01.2025 5:25:26', Current time (UTC): '20.01.2025 6:53:24'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-01-20 11:53:24.441 +05:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '18.01.2025 5:25:26', Current time (UTC): '20.01.2025 6:53:24'.
+2025-01-20 11:53:24.444 +05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-01-20 11:53:24.448 +05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-01-20 11:53:24.451 +05:00 [INF] HTTP GET /api/v1/Customers responded 401 in 144.5509 ms
+2025-01-20 11:53:24.455 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/api/v1/Customers - 401 0 null 157.0836ms
+2025-01-20 11:53:53.714 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7058/api/v1/User/login - application/json 71
+2025-01-20 11:53:53.730 +05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '18.01.2025 5:25:26', Current time (UTC): '20.01.2025 6:53:53'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-01-20 11:53:53.736 +05:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '18.01.2025 5:25:26', Current time (UTC): '20.01.2025 6:53:53'.
+2025-01-20 11:53:53.742 +05:00 [INF] Executing endpoint 'NewEraAPI.Controllers.UserController.Login (NewEraAPI)'
+2025-01-20 11:53:53.772 +05:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(NewEraAPI.Models.User) on controller NewEraAPI.Controllers.UserController (NewEraAPI).
+2025-01-20 11:53:54.944 +05:00 [WRN] No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-20 11:53:54.948 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-20 11:53:54.955 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-20 11:54:20.794 +05:00 [ERR] An error occurred using the connection to database 'NewEraDB' on server 'localhost'.
+2025-01-20 11:54:20.817 +05:00 [ERR] An exception occurred while iterating over the results of a query for context type 'NewEraAPI.Data.NewEraDBContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (2): Не удается найти указанный файл.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (2): Не удается найти указанный файл.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+2025-01-20 11:55:01.241 +05:00 [INF] Executed action NewEraAPI.Controllers.UserController.Login (NewEraAPI) in 67458.4522ms
+2025-01-20 11:55:01.248 +05:00 [INF] Executed endpoint 'NewEraAPI.Controllers.UserController.Login (NewEraAPI)'
+2025-01-20 11:55:01.254 +05:00 [ERR] HTTP POST /api/v1/User/login responded 500 in 67525.5487 ms
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (2): Не удается найти указанный файл.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at NewEraAPI.Controllers.UserController.Login(User user) in C:\Users\Abdulloh\Desktop\GitHub\NewEra-Cash-Carry-Backend\NewEraAPI\Controllers\UsersController.cs:line 67
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+2025-01-20 11:55:01.674 +05:00 [ERR] An error occurred while processing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (2): Не удается найти указанный файл.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at NewEraAPI.Controllers.UserController.Login(User user) in C:\Users\Abdulloh\Desktop\GitHub\NewEra-Cash-Carry-Backend\NewEraAPI\Controllers\UsersController.cs:line 67
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at NewEraAPI.Middlewares.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\Abdulloh\Desktop\GitHub\NewEra-Cash-Carry-Backend\NewEraAPI\Middlewares\ErrorHandlerMiddleware.cs:line 22
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+2025-01-20 11:55:01.759 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7058/api/v1/User/login - 500 null application/json 68044.7352ms
+2025-01-20 11:55:09.789 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7058/api/v1/User/login - application/json 71
+2025-01-20 11:55:09.797 +05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '18.01.2025 5:25:26', Current time (UTC): '20.01.2025 6:55:09'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-01-20 11:55:09.806 +05:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '18.01.2025 5:25:26', Current time (UTC): '20.01.2025 6:55:09'.
+2025-01-20 11:55:09.810 +05:00 [INF] Executing endpoint 'NewEraAPI.Controllers.UserController.Login (NewEraAPI)'
+2025-01-20 11:55:09.813 +05:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(NewEraAPI.Models.User) on controller NewEraAPI.Controllers.UserController (NewEraAPI).
+2025-01-20 11:55:10.110 +05:00 [INF] Executed DbCommand (93ms) [Parameters=[@__user_Username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[PasswordHash], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__user_Username_0
+2025-01-20 11:55:10.736 +05:00 [INF] Executing UnauthorizedObjectResult, writing value of type 'System.String'.
+2025-01-20 11:55:10.742 +05:00 [INF] Executed action NewEraAPI.Controllers.UserController.Login (NewEraAPI) in 923.8439ms
+2025-01-20 11:55:10.747 +05:00 [INF] Executed endpoint 'NewEraAPI.Controllers.UserController.Login (NewEraAPI)'
+2025-01-20 11:55:10.750 +05:00 [INF] HTTP POST /api/v1/User/login responded 401 in 954.3485 ms
+2025-01-20 11:55:10.766 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7058/api/v1/User/login - 401 null text/plain; charset=utf-8 977.0512ms
+2025-01-20 11:55:21.767 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7058/api/v1/User/login - application/json 71
+2025-01-20 11:55:21.781 +05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '18.01.2025 5:25:26', Current time (UTC): '20.01.2025 6:55:21'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-01-20 11:55:21.789 +05:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '18.01.2025 5:25:26', Current time (UTC): '20.01.2025 6:55:21'.
+2025-01-20 11:55:21.792 +05:00 [INF] Executing endpoint 'NewEraAPI.Controllers.UserController.Login (NewEraAPI)'
+2025-01-20 11:55:21.795 +05:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(NewEraAPI.Models.User) on controller NewEraAPI.Controllers.UserController (NewEraAPI).
+2025-01-20 11:55:21.888 +05:00 [INF] Executed DbCommand (5ms) [Parameters=[@__user_Username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[PasswordHash], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__user_Username_0
+2025-01-20 11:55:22.105 +05:00 [INF] User admin succesfully loggined Token - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjQiLCJyb2xlIjoiQWRtaW4iLCJuYmYiOjE3MzczNTYxMjIsImV4cCI6MTczNzYxNTMyMiwiaWF0IjoxNzM3MzU2MTIyfQ.UVweKZoaYmDIx2whXmftD2QSNlF3PgFEjkef0oL6Ubw
+2025-01-20 11:55:22.109 +05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-20 11:55:22.115 +05:00 [INF] Executed action NewEraAPI.Controllers.UserController.Login (NewEraAPI) in 312.3856ms
+2025-01-20 11:55:22.119 +05:00 [INF] Executed endpoint 'NewEraAPI.Controllers.UserController.Login (NewEraAPI)'
+2025-01-20 11:55:22.121 +05:00 [INF] HTTP POST /api/v1/User/login responded 200 in 340.8766 ms
+2025-01-20 11:55:22.126 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7058/api/v1/User/login - 200 null application/json; charset=utf-8 359.3289ms
+2025-01-20 11:55:38.856 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/api/v1/Customers - null null
+2025-01-20 11:55:38.889 +05:00 [INF] Executing endpoint 'NewEraAPI.Controllers.CustomersController.GetCustomers (NewEraAPI)'
+2025-01-20 11:55:38.898 +05:00 [INF] Route matched with {action = "GetCustomers", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[NewEraAPI.DTOs.CustomerDTO.CustomerGetDTO]]] GetCustomers() on controller NewEraAPI.Controllers.CustomersController (NewEraAPI).
+2025-01-20 11:55:39.171 +05:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[Email], [c].[FirstName], [c].[LastName], [c].[PhoneNumber]
+FROM [Customers] AS [c]
+2025-01-20 11:55:39.216 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NewEraAPI.DTOs.CustomerDTO.CustomerGetDTO, NewEraAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-01-20 11:55:39.223 +05:00 [INF] Executed action NewEraAPI.Controllers.CustomersController.GetCustomers (NewEraAPI) in 316.6467ms
+2025-01-20 11:55:39.227 +05:00 [INF] Executed endpoint 'NewEraAPI.Controllers.CustomersController.GetCustomers (NewEraAPI)'
+2025-01-20 11:55:39.229 +05:00 [INF] HTTP GET /api/v1/Customers responded 200 in 364.8218 ms
+2025-01-20 11:55:39.238 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/api/v1/Customers - 200 null application/json; charset=utf-8 382.0427ms
+2025-01-20 12:01:57.705 +05:00 [INF] User profile is available. Using 'C:\Users\Abdulloh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-20 12:01:58.085 +05:00 [INF] Now listening on: https://localhost:7058
+2025-01-20 12:01:58.337 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-20 12:01:58.338 +05:00 [INF] Hosting environment: Development
+2025-01-20 12:01:58.340 +05:00 [INF] Content root path: C:\Users\Abdulloh\Desktop\GitHub\NewEra-Cash-Carry-Backend\NewEraAPI

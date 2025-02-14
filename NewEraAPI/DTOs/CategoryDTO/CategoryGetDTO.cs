@@ -2,7 +2,7 @@
 
 namespace NewEraAPI.DTOs.CategoryDTO
 {
-    public class CategoryGetDTO
+    public class CategoryGetDTO : IBaseGetDTO
     {
         public int ID { get; set; }
         public string Name { get; set; }

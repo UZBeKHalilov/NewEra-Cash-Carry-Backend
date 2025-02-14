@@ -1,0 +1,323 @@
+2025-01-22 10:09:47.472 +05:00 [INF] User profile is available. Using 'C:\Users\Abdulloh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-22 10:09:48.208 +05:00 [INF] Now listening on: https://localhost:7058
+2025-01-22 10:09:48.594 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-22 10:09:48.596 +05:00 [INF] Hosting environment: Development
+2025-01-22 10:09:48.602 +05:00 [INF] Content root path: C:\Users\Abdulloh\Desktop\GitHub\NewEra-Cash-Carry-Backend\NewEraAPI
+2025-01-22 10:10:21.176 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/swagger/ - null null
+2025-01-22 10:10:21.370 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/swagger/ - 301 0 null 198.3166ms
+2025-01-22 10:10:21.378 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/swagger/index.html - null null
+2025-01-22 10:10:21.456 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/swagger/index.html - 200 null text/html;charset=utf-8 78.1349ms
+2025-01-22 10:10:21.508 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/swagger/swagger-ui.css - null null
+2025-01-22 10:10:21.520 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/swagger/index.css - null null
+2025-01-22 10:10:21.554 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/swagger/swagger-ui-bundle.js - null null
+2025-01-22 10:10:21.556 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/swagger/swagger-ui-standalone-preset.js - null null
+2025-01-22 10:10:21.653 +05:00 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-01-22 10:10:21.653 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/_vs/browserLink - null null
+2025-01-22 10:10:21.700 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/swagger/index.css - 200 202 text/css 179.4269ms
+2025-01-22 10:10:21.646 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/swagger/index.js - null null
+2025-01-22 10:10:21.718 +05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-01-22 10:10:21.654 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-22 10:10:21.718 +05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-01-22 10:10:21.729 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/swagger/index.js - 200 null application/javascript;charset=utf-8 83.1814ms
+2025-01-22 10:10:21.733 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/swagger/swagger-ui-standalone-preset.js - 200 230007 text/javascript 177.442ms
+2025-01-22 10:10:21.740 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/swagger/swagger-ui.css - 200 152035 text/css 232.0286ms
+2025-01-22 10:10:21.741 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 87.2034ms
+2025-01-22 10:10:21.922 +05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-01-22 10:10:21.924 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/swagger/swagger-ui-bundle.js - 200 1426050 text/javascript 370.822ms
+2025-01-22 10:10:21.927 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/_vs/browserLink - 200 null text/javascript; charset=UTF-8 273.7204ms
+2025-01-22 10:10:22.199 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/swagger/v1/swagger.json - null null
+2025-01-22 10:10:22.234 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 35.5043ms
+2025-01-22 10:10:42.181 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/api/v1/Categories - null null
+2025-01-22 10:10:42.302 +05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-01-22 10:10:42.308 +05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-01-22 10:10:42.312 +05:00 [INF] HTTP GET /api/v1/Categories responded 401 in 117.4998 ms
+2025-01-22 10:10:42.315 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/api/v1/Categories - 401 0 null 134.0209ms
+2025-01-22 10:10:51.571 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/api/v1/Categories - null null
+2025-01-22 10:10:51.667 +05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '18.01.2025 5:25:26', Current time (UTC): '22.01.2025 5:10:51'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-01-22 10:10:51.711 +05:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '18.01.2025 5:25:26', Current time (UTC): '22.01.2025 5:10:51'.
+2025-01-22 10:10:51.714 +05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-01-22 10:10:51.717 +05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-01-22 10:10:51.718 +05:00 [INF] HTTP GET /api/v1/Categories responded 401 in 142.8602 ms
+2025-01-22 10:10:51.721 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/api/v1/Categories - 401 0 null 150.3792ms
+2025-01-22 10:11:18.966 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7058/api/v1/User/login - application/json 74
+2025-01-22 10:11:18.986 +05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '18.01.2025 5:25:26', Current time (UTC): '22.01.2025 5:11:18'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-01-22 10:11:18.990 +05:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '18.01.2025 5:25:26', Current time (UTC): '22.01.2025 5:11:18'.
+2025-01-22 10:11:18.995 +05:00 [INF] Executing endpoint 'NewEraAPI.Controllers.UserController.Login (NewEraAPI)'
+2025-01-22 10:11:19.022 +05:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(NewEraAPI.Models.User) on controller NewEraAPI.Controllers.UserController (NewEraAPI).
+2025-01-22 10:11:20.161 +05:00 [WRN] No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-22 10:11:20.165 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-22 10:11:20.167 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-22 10:11:21.811 +05:00 [INF] Executed DbCommand (102ms) [Parameters=[@__user_Username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[PasswordHash], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__user_Username_0
+2025-01-22 10:11:21.853 +05:00 [INF] Executing UnauthorizedObjectResult, writing value of type 'System.String'.
+2025-01-22 10:11:21.864 +05:00 [INF] Executed action NewEraAPI.Controllers.UserController.Login (NewEraAPI) in 2833.1922ms
+2025-01-22 10:11:21.867 +05:00 [INF] Executed endpoint 'NewEraAPI.Controllers.UserController.Login (NewEraAPI)'
+2025-01-22 10:11:21.870 +05:00 [INF] HTTP POST /api/v1/User/login responded 401 in 2885.8967 ms
+2025-01-22 10:11:21.882 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7058/api/v1/User/login - 401 null text/plain; charset=utf-8 2915.7416ms
+2025-01-22 10:11:40.126 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7058/api/v1/User/login - application/json 71
+2025-01-22 10:11:40.132 +05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '18.01.2025 5:25:26', Current time (UTC): '22.01.2025 5:11:40'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-01-22 10:11:40.137 +05:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '18.01.2025 5:25:26', Current time (UTC): '22.01.2025 5:11:40'.
+2025-01-22 10:11:40.139 +05:00 [INF] Executing endpoint 'NewEraAPI.Controllers.UserController.Login (NewEraAPI)'
+2025-01-22 10:11:40.141 +05:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(NewEraAPI.Models.User) on controller NewEraAPI.Controllers.UserController (NewEraAPI).
+2025-01-22 10:11:40.171 +05:00 [INF] Executed DbCommand (6ms) [Parameters=[@__user_Username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[PasswordHash], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__user_Username_0
+2025-01-22 10:11:40.713 +05:00 [INF] Executing UnauthorizedObjectResult, writing value of type 'System.String'.
+2025-01-22 10:11:40.715 +05:00 [INF] Executed action NewEraAPI.Controllers.UserController.Login (NewEraAPI) in 571.2491ms
+2025-01-22 10:11:40.717 +05:00 [INF] Executed endpoint 'NewEraAPI.Controllers.UserController.Login (NewEraAPI)'
+2025-01-22 10:11:40.718 +05:00 [INF] HTTP POST /api/v1/User/login responded 401 in 586.8657 ms
+2025-01-22 10:11:40.729 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7058/api/v1/User/login - 401 null text/plain; charset=utf-8 603.6185ms
+2025-01-22 10:11:49.396 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7058/api/v1/User/login - application/json 71
+2025-01-22 10:11:49.401 +05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '18.01.2025 5:25:26', Current time (UTC): '22.01.2025 5:11:49'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-01-22 10:11:49.405 +05:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '18.01.2025 5:25:26', Current time (UTC): '22.01.2025 5:11:49'.
+2025-01-22 10:11:49.407 +05:00 [INF] Executing endpoint 'NewEraAPI.Controllers.UserController.Login (NewEraAPI)'
+2025-01-22 10:11:49.409 +05:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(NewEraAPI.Models.User) on controller NewEraAPI.Controllers.UserController (NewEraAPI).
+2025-01-22 10:11:49.487 +05:00 [INF] Executed DbCommand (3ms) [Parameters=[@__user_Username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[PasswordHash], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__user_Username_0
+2025-01-22 10:11:49.679 +05:00 [INF] User admin succesfully loggined Token - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjQiLCJyb2xlIjoiQWRtaW4iLCJuYmYiOjE3Mzc1MjI3MDksImV4cCI6MTczNzc4MTkwOSwiaWF0IjoxNzM3NTIyNzA5fQ.2oxnbWQ3ZNHBt2_QDX2nPsjySufcCyUsCLbscMZdK5s
+2025-01-22 10:11:49.682 +05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-22 10:11:49.687 +05:00 [INF] Executed action NewEraAPI.Controllers.UserController.Login (NewEraAPI) in 274.7077ms
+2025-01-22 10:11:49.689 +05:00 [INF] Executed endpoint 'NewEraAPI.Controllers.UserController.Login (NewEraAPI)'
+2025-01-22 10:11:49.690 +05:00 [INF] HTTP POST /api/v1/User/login responded 200 in 289.7914 ms
+2025-01-22 10:11:49.693 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7058/api/v1/User/login - 200 null application/json; charset=utf-8 296.743ms
+2025-01-22 10:12:15.511 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/api/v1/Categories - null null
+2025-01-22 10:12:15.522 +05:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-01-22 10:12:15.529 +05:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-01-22 10:12:15.532 +05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-01-22 10:12:15.534 +05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-01-22 10:12:15.535 +05:00 [INF] HTTP GET /api/v1/Categories responded 401 in 14.1024 ms
+2025-01-22 10:12:15.538 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/api/v1/Categories - 401 0 null 26.8941ms
+2025-01-22 10:12:20.397 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/api/v1/Categories - null null
+2025-01-22 10:12:20.401 +05:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-01-22 10:12:20.407 +05:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-01-22 10:12:20.409 +05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-01-22 10:12:20.411 +05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-01-22 10:12:20.412 +05:00 [INF] HTTP GET /api/v1/Categories responded 401 in 11.4463 ms
+2025-01-22 10:12:20.416 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/api/v1/Categories - 401 0 null 18.7881ms
+2025-01-22 10:12:21.382 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/api/v1/Categories - null null
+2025-01-22 10:12:21.386 +05:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-01-22 10:12:21.399 +05:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-01-22 10:12:21.401 +05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-01-22 10:12:21.404 +05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-01-22 10:12:21.406 +05:00 [INF] HTTP GET /api/v1/Categories responded 401 in 19.9215 ms
+2025-01-22 10:12:21.408 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/api/v1/Categories - 401 0 null 26.6161ms
+2025-01-22 10:12:22.277 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/api/v1/Categories - null null
+2025-01-22 10:12:22.282 +05:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-01-22 10:12:22.287 +05:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-01-22 10:12:22.290 +05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-01-22 10:12:22.292 +05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-01-22 10:12:22.293 +05:00 [INF] HTTP GET /api/v1/Categories responded 401 in 12.3817 ms
+2025-01-22 10:12:22.296 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/api/v1/Categories - 401 0 null 18.6843ms
+2025-01-22 10:12:48.824 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/api/v1/Customers - null null
+2025-01-22 10:12:48.829 +05:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-01-22 10:12:48.836 +05:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-01-22 10:12:48.838 +05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-01-22 10:12:48.839 +05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-01-22 10:12:48.841 +05:00 [INF] HTTP GET /api/v1/Customers responded 401 in 12.2359 ms
+2025-01-22 10:12:48.843 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/api/v1/Customers - 401 0 null 19.9273ms
+2025-01-22 10:13:09.000 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/api/v1/Categories - null null
+2025-01-22 10:13:09.022 +05:00 [INF] Executing endpoint 'NewEraAPI.Controllers.CategoriesController.GetCategories (NewEraAPI)'
+2025-01-22 10:13:09.028 +05:00 [INF] Route matched with {action = "GetCategories", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[NewEraAPI.DTOs.CategoryDTO.CategoryGetDTO]]] GetCategories() on controller NewEraAPI.Controllers.CategoriesController (NewEraAPI).
+2025-01-22 10:13:09.258 +05:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[ID], [c].[Description], [c].[Name]
+FROM [Categories] AS [c]
+2025-01-22 10:13:09.293 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NewEraAPI.DTOs.CategoryDTO.CategoryGetDTO, NewEraAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-01-22 10:13:09.297 +05:00 [INF] Executed action NewEraAPI.Controllers.CategoriesController.GetCategories (NewEraAPI) in 266.2074ms
+2025-01-22 10:13:09.307 +05:00 [INF] Executed endpoint 'NewEraAPI.Controllers.CategoriesController.GetCategories (NewEraAPI)'
+2025-01-22 10:13:09.309 +05:00 [INF] HTTP GET /api/v1/Categories responded 200 in 303.2890 ms
+2025-01-22 10:13:09.314 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/api/v1/Categories - 200 null application/json; charset=utf-8 313.9552ms
+2025-01-22 10:13:19.021 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/api/v1/Customers - null null
+2025-01-22 10:13:19.025 +05:00 [INF] Executing endpoint 'NewEraAPI.Controllers.CustomersController.GetCustomers (NewEraAPI)'
+2025-01-22 10:13:19.030 +05:00 [INF] Route matched with {action = "GetCustomers", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[NewEraAPI.DTOs.CustomerDTO.CustomerGetDTO]]] GetCustomers() on controller NewEraAPI.Controllers.CustomersController (NewEraAPI).
+2025-01-22 10:13:19.056 +05:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[Email], [c].[FirstName], [c].[LastName], [c].[PhoneNumber]
+FROM [Customers] AS [c]
+2025-01-22 10:13:19.084 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NewEraAPI.DTOs.CustomerDTO.CustomerGetDTO, NewEraAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-01-22 10:13:19.089 +05:00 [INF] Executed action NewEraAPI.Controllers.CustomersController.GetCustomers (NewEraAPI) in 55.7598ms
+2025-01-22 10:13:19.091 +05:00 [INF] Executed endpoint 'NewEraAPI.Controllers.CustomersController.GetCustomers (NewEraAPI)'
+2025-01-22 10:13:19.092 +05:00 [INF] HTTP GET /api/v1/Customers responded 200 in 68.1932 ms
+2025-01-22 10:13:19.097 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/api/v1/Customers - 200 null application/json; charset=utf-8 76.5279ms
+2025-01-22 10:13:42.338 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/api/Orders/1 - null null
+2025-01-22 10:13:42.350 +05:00 [INF] Executing endpoint 'NewEraAPI.Controllers.OrdersController.GetOrder (NewEraAPI)'
+2025-01-22 10:13:42.361 +05:00 [INF] Route matched with {action = "GetOrder", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[NewEraAPI.DTOs.OrderDTO.OrderGetDTO]] GetOrder(Int32) on controller NewEraAPI.Controllers.OrdersController (NewEraAPI).
+2025-01-22 10:13:42.591 +05:00 [INF] Executed DbCommand (24ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[CustomerId], [s].[OrderDate], [s].[TotalAmount], [s].[Id0], [s].[Address], [s].[Email], [s].[FirstName], [s].[LastName], [s].[PhoneNumber], [s0].[Id], [s0].[OrderId], [s0].[Price], [s0].[ProductId], [s0].[Quantity], [s0].[ID0], [s0].[CategoryID], [s0].[Description], [s0].[Name], [s0].[Price0], [s0].[Stock], [s0].[ID1], [s0].[Description0], [s0].[Name0]
+FROM (
+    SELECT TOP(1) [o].[Id], [o].[CustomerId], [o].[OrderDate], [o].[TotalAmount], [c].[Id] AS [Id0], [c].[Address], [c].[Email], [c].[FirstName], [c].[LastName], [c].[PhoneNumber]
+    FROM [Orders] AS [o]
+    INNER JOIN [Customers] AS [c] ON [o].[CustomerId] = [c].[Id]
+    WHERE [o].[Id] = @__id_0
+) AS [s]
+LEFT JOIN (
+    SELECT [o0].[Id], [o0].[OrderId], [o0].[Price], [o0].[ProductId], [o0].[Quantity], [p].[ID] AS [ID0], [p].[CategoryID], [p].[Description], [p].[Name], [p].[Price] AS [Price0], [p].[Stock], [c0].[ID] AS [ID1], [c0].[Description] AS [Description0], [c0].[Name] AS [Name0]
+    FROM [OrderItems] AS [o0]
+    INNER JOIN [Products] AS [p] ON [o0].[ProductId] = [p].[ID]
+    INNER JOIN [Categories] AS [c0] ON [p].[CategoryID] = [c0].[ID]
+) AS [s0] ON [s].[Id] = [s0].[OrderId]
+ORDER BY [s].[Id], [s].[Id0], [s0].[Id], [s0].[ID0]
+2025-01-22 10:13:42.689 +05:00 [INF] Executing OkObjectResult, writing value of type 'NewEraAPI.DTOs.OrderDTO.OrderGetDTO'.
+2025-01-22 10:13:42.709 +05:00 [INF] Executed action NewEraAPI.Controllers.OrdersController.GetOrder (NewEraAPI) in 343.2669ms
+2025-01-22 10:13:42.711 +05:00 [INF] Executed endpoint 'NewEraAPI.Controllers.OrdersController.GetOrder (NewEraAPI)'
+2025-01-22 10:13:42.712 +05:00 [INF] HTTP GET /api/Orders/1 responded 200 in 362.3772 ms
+2025-01-22 10:13:42.715 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/api/Orders/1 - 200 null application/json; charset=utf-8 377.2096ms
+2025-01-22 10:14:00.894 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/api/v1/Products - null null
+2025-01-22 10:14:00.898 +05:00 [INF] Executing endpoint 'NewEraAPI.Controllers.ProductsController.GetProducts (NewEraAPI)'
+2025-01-22 10:14:00.903 +05:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[NewEraAPI.DTOs.Product_DTO.ProductGetDTO]]] GetProducts() on controller NewEraAPI.Controllers.ProductsController (NewEraAPI).
+2025-01-22 10:14:00.926 +05:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ID], [p].[CategoryID], [p].[Description], [p].[Name], [p].[Price], [p].[Stock], [c].[ID], [c].[Description], [c].[Name]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryID] = [c].[ID]
+2025-01-22 10:14:00.937 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NewEraAPI.DTOs.Product_DTO.ProductGetDTO, NewEraAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-01-22 10:14:00.940 +05:00 [INF] Executed action NewEraAPI.Controllers.ProductsController.GetProducts (NewEraAPI) in 33.2022ms
+2025-01-22 10:14:00.948 +05:00 [INF] Executed endpoint 'NewEraAPI.Controllers.ProductsController.GetProducts (NewEraAPI)'
+2025-01-22 10:14:00.949 +05:00 [INF] HTTP GET /api/v1/Products responded 200 in 51.3410 ms
+2025-01-22 10:14:00.952 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/api/v1/Products - 200 null application/json; charset=utf-8 57.8289ms
+2025-01-22 10:23:14.766 +05:00 [WRN] No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-22 10:23:14.814 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-22 10:23:14.815 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-22 10:25:01.919 +05:00 [WRN] No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-22 10:25:01.966 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-22 10:25:01.966 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-22 10:26:53.073 +05:00 [WRN] No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-22 10:26:53.124 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-22 10:26:53.125 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-22 10:29:42.768 +05:00 [WRN] No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-22 10:29:42.812 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-22 10:29:42.812 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-22 10:32:01.365 +05:00 [WRN] No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-22 10:32:01.409 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-22 10:32:01.409 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-22 10:35:56.126 +05:00 [INF] User profile is available. Using 'C:\Users\Abdulloh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-22 10:35:56.480 +05:00 [INF] Now listening on: https://localhost:7058
+2025-01-22 10:35:56.730 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-22 10:35:56.731 +05:00 [INF] Hosting environment: Development
+2025-01-22 10:35:56.732 +05:00 [INF] Content root path: C:\Users\Abdulloh\Desktop\GitHub\NewEra-Cash-Carry-Backend\NewEraAPI
+2025-01-22 10:36:08.609 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/swagger/index.html - null null
+2025-01-22 10:36:08.848 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/swagger/index.html - 200 null text/html;charset=utf-8 236.3557ms
+2025-01-22 10:36:08.911 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/swagger/index.js - null null
+2025-01-22 10:36:08.911 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-22 10:36:08.912 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/_vs/browserLink - null null
+2025-01-22 10:36:08.921 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/swagger/index.js - 200 null application/javascript;charset=utf-8 11.3661ms
+2025-01-22 10:36:09.031 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 121.5637ms
+2025-01-22 10:36:09.057 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/_vs/browserLink - 200 null text/javascript; charset=UTF-8 145.4065ms
+2025-01-22 10:36:09.188 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/swagger/v1/swagger.json - null null
+2025-01-22 10:36:09.229 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 41.0138ms
+2025-01-22 10:36:33.801 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/api/v1/Categories - null null
+2025-01-22 10:36:33.915 +05:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(ReadOnlySpan`1 strSpan, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-01-22 10:36:33.959 +05:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-01-22 10:36:33.967 +05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-01-22 10:36:33.975 +05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-01-22 10:36:33.979 +05:00 [INF] HTTP GET /api/v1/Categories responded 401 in 156.7841 ms
+2025-01-22 10:36:33.983 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/api/v1/Categories - 401 0 null 181.8123ms
+2025-01-22 10:36:48.802 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/api/v1/Categories - null null
+2025-01-22 10:36:48.872 +05:00 [INF] Executing endpoint 'NewEraAPI.Controllers.CategoriesController.GetCategories (NewEraAPI)'
+2025-01-22 10:36:48.892 +05:00 [INF] Route matched with {action = "GetCategories", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[NewEraAPI.DTOs.CategoryDTO.CategoryGetDTO]]] GetCategories() on controller NewEraAPI.Controllers.CategoriesController (NewEraAPI).
+2025-01-22 10:36:49.957 +05:00 [WRN] No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-22 10:36:49.959 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-22 10:36:49.962 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-22 10:36:51.603 +05:00 [INF] Executed DbCommand (142ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[ID], [c].[Description], [c].[Name]
+FROM [Categories] AS [c]
+2025-01-22 10:36:51.736 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NewEraAPI.DTOs.CategoryDTO.CategoryGetDTO, NewEraAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-01-22 10:36:51.753 +05:00 [INF] Executed action NewEraAPI.Controllers.CategoriesController.GetCategories (NewEraAPI) in 2851.708ms
+2025-01-22 10:36:51.756 +05:00 [INF] Executed endpoint 'NewEraAPI.Controllers.CategoriesController.GetCategories (NewEraAPI)'
+2025-01-22 10:36:51.759 +05:00 [INF] HTTP GET /api/v1/Categories responded 200 in 2949.6527 ms
+2025-01-22 10:36:51.784 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/api/v1/Categories - 200 null application/json; charset=utf-8 2981.8171ms
+2025-01-22 10:37:04.424 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7058/api/v1/Customers - null null
+2025-01-22 10:37:04.437 +05:00 [INF] Executing endpoint 'NewEraAPI.Controllers.CustomersController.GetCustomers (NewEraAPI)'
+2025-01-22 10:37:04.446 +05:00 [INF] Route matched with {action = "GetCustomers", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[NewEraAPI.DTOs.CustomerDTO.CustomerGetDTO]]] GetCustomers() on controller NewEraAPI.Controllers.CustomersController (NewEraAPI).
+2025-01-22 10:37:04.568 +05:00 [INF] Executed DbCommand (100ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[Email], [c].[FirstName], [c].[LastName], [c].[PhoneNumber]
+FROM [Customers] AS [c]
+2025-01-22 10:37:04.593 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NewEraAPI.DTOs.CustomerDTO.CustomerGetDTO, NewEraAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-01-22 10:37:04.598 +05:00 [INF] Executed action NewEraAPI.Controllers.CustomersController.GetCustomers (NewEraAPI) in 148.4431ms
+2025-01-22 10:37:04.600 +05:00 [INF] Executed endpoint 'NewEraAPI.Controllers.CustomersController.GetCustomers (NewEraAPI)'
+2025-01-22 10:37:04.601 +05:00 [INF] HTTP GET /api/v1/Customers responded 200 in 168.1012 ms
+2025-01-22 10:37:04.606 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7058/api/v1/Customers - 200 null application/json; charset=utf-8 182.4014ms
